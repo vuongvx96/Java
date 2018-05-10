@@ -178,8 +178,6 @@ public class frmEditList extends javax.swing.JFrame {
             if (res == JOptionPane.YES_OPTION){
                 // Lấy chỉ số các phần tử được chọn
                 int[] selectedIndices = lstName.getSelectedIndices();
-                for (int i =0; i < selectedIndices.length;i++)
-                    System.out.println(selectedIndices[i]);
                 for (int i = 0; i < model.getSize(); i++)
                     arrTen.add(model.getElementAt(i).toString());
                 // Xóa các phần tử được chọn
